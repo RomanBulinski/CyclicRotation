@@ -10,7 +10,7 @@ public class TestCyclo {
         int[] A = {3, 8, 9, 7, 6};
         int K = 3;
         int[] B = {9, 7, 6, 3, 8};
-        assertArrayEquals( B , cycRotation.solution(A,K) );
+        assertArrayEquals( B, cycRotation.solution(A,K) );
     }
 
     @Test
@@ -19,7 +19,7 @@ public class TestCyclo {
         int[] A = {1,2,3,4,5};
         int K = 1;
         int[] B = {5,1,2,3,4};
-        assertArrayEquals( B , cycRotation.solution(A,K) );
+        assertArrayEquals( B, cycRotation.solution(A,K) );
     }
 
 

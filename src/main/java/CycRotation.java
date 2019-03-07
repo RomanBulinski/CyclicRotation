@@ -1,7 +1,6 @@
 public class CycRotation {
 
     public int[] solution(int[] A, int K){
-
         int counter = 0;
         while(counter < K  ){
             int temp = A[A.length-1];
@@ -11,7 +10,6 @@ public class CycRotation {
             A[0] = temp;
             counter++;
         }
-
         return A;
     }
 
